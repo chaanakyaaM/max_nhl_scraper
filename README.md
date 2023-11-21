@@ -12,17 +12,17 @@ pip install max_nhl_scraper
 
 ## Usage
 
-Here's a simple example of how to use nhl_scraper:
+Here's a simple example of how to use max_nhl_scraper:
 
 ```python
-from max_nhl_scraper import NHLScraper
+from max_nhl_scraper import MaxNHLScraper
 
 
 # Create an instance of the scraper
-scraper = NHLScraper()
+scraper = MaxNHLScraper()
 
 # Example: Scrape data for a specific game or player
-data = scraper.scrape_game_data(game_id=2023020005) #Replace <2023020005> with the actual game ID you want to scrape data for.
+data = scraper.scrape_game(game_id=2023020005) #Replace <2023020005> with the actual game ID you want to scrape data for.
 ```
 
 ## Requirements
@@ -41,7 +41,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contributing
 
-Contributions to nhl_scraper are welcome! Please feel free to submit pull requests or open issues to discuss potential improvements or report bugs.
+Contributions to max_nhl_scraper are welcome! Please feel free to submit pull requests or open issues to discuss potential improvements or report bugs.
 
 ## Contact
 
@@ -49,4 +49,4 @@ If you have any questions or suggestions, please contact me at maxtixador@gmail.
 
 ## Acknowledgments
 
-Special thanks to all contributors (just me for now) and users of nhl_scraper.
+Special thanks to all contributors (just me for now) and users of max_nhl_scraper.
