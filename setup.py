@@ -10,9 +10,9 @@ setup(
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     install_requires=[
-        'pandas',
-        'numpy',
-        'requests',
+        'pandas == 2.1.0',
+        'numpy == 1.26.1',
+        'requests == 2.29.0',
         'beautifulsoup4', # BeautifulSoup should be specified as beautifulsoup4
     ],
     python_requires='>=3.6',
